@@ -47,6 +47,15 @@ body {
   font-size: 1.25rem;
 }
 
+.logo img {
+  width: 48px;
+  height: 48px;
+}
+
+.logo span {
+  font-size: 1.1rem;
+}
+
 .nav {
   display: flex;
   gap: calc(var(--spacing-base) * 2);
@@ -295,47 +304,104 @@ h1 {
 }
 
 @media (max-width: 768px) {
-  .hero {
-    flex-direction: column;
-    text-align: center;
-    margin-top: 120px;
-    padding: var(--spacing-base);
+  /* Header adjustments */
+  .header {
+    padding: 1rem;
   }
 
-  .hero-content {
-    margin-bottom: calc(var(--spacing-base) * 3);
+  .logo img {
+    width: 48px;
+    height: 48px;
   }
 
-  h1 {
-    font-size: 2.5rem;
-  }
-
-  .download-buttons {
-    flex-direction: column;
-  }
-
-  .download-btn {
-    width: 100%;
+  .logo span {
+    font-size: 1.1rem;
   }
 
   .nav {
-    display: none;
+    display: none; /* Hide regular nav on mobile */
+  }
+
+  /* Hero section adjustments */
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+    padding: 1rem;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .subtitle {
+    font-size: 1.1rem;
+  }
+
+  /* iPhone display adjustments */
+  .iphone-container {
+    transform: scale(0.8);
+    margin: 2rem -1rem;
   }
 
   .iphone {
-    width: 180px;
+    width: 200px;
   }
-  
-  .iphone-container {
-    gap: 1rem;
+
+  /* Features section adjustments */
+  .feature-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+    padding: 0 1rem;
+  }
+
+  /* How it works section */
+  .steps {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 1rem;
+  }
+
+  /* CTA section */
+  .cta-section {
+    margin: 2rem 1rem;
+    padding: 3rem 1rem;
   }
 
   .cta-section h2 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
-  
-  .cta-section p {
-    font-size: 1.25rem;
+
+  /* Download buttons */
+  .download-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .download-btn {
+    width: 160px;
+    height: 50px;
+  }
+}
+
+/* Add a mobile menu button */
+.mobile-menu-button {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mobile-menu-button {
+    display: block;
+    position: absolute;
+    right: 1rem;
+    top: 1.5rem;
   }
 }
 
