@@ -464,3 +464,30 @@ h1 {
 .cta-button:hover {
     transform: translateY(-2px);
 }
+
+/* Support Section */
+.support-section {
+    padding: calc(var(--spacing-base) * 3);
+    background: var(--accent-color);
+    text-align: center;
+}
+
+.support-container {
+    max-width: var(--container-width);
+    margin: 0 auto;
+}
+
+.support-section p {
+    font-size: 1.25rem;
+    color: var(--text-primary);
+}
+
+.support-section a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.support-section a:hover {
+    text-decoration: underline;
+}
