@@ -56,6 +56,18 @@ body {
   font-size: 1.1rem;
 }
 
+.logo a {
+  color: var(--text-primary);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.logo a:hover {
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
 .nav {
   display: flex;
   gap: calc(var(--spacing-base) * 2);
@@ -294,6 +306,18 @@ h1 {
 
 .footer p:first-child {
   margin-bottom: 1rem;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.footer a:hover {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: underline;
 }
 
 /* Responsive Design */
