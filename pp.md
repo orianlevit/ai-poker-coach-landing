@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Poker AI Coach ("we," "our," or "us"), developed by Horizon Studios LLC, respects your privacy and is committed to protecting your personal information. This Privacy Policy explains what data we collect, how we use it, and your rights concerning your information when you use our Poker AI Coach iOS app ("the app").
+AI Poker Coach ("we," "our," or "us"), developed by Horizon Studios LLC, respects your privacy and is committed to protecting your personal information. This Privacy Policy explains what data we collect, how we use it, and your rights concerning your information when you use our Poker AI Coach iOS app ("the app").
 
 ## Audience
 
