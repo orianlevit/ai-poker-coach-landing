@@ -65,4 +65,4 @@ We may update these Terms at any time. Material changes will be announced in-app
 
 ---
 ### 14. Contact
-Questions? Email us at **support@pokercoach.app** or write to **500 NW 2nd Ave, Miami, FL 33101**.
+Questions? Email us at **support@pokercoach.app**.
